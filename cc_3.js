@@ -21,3 +21,11 @@ let employee = {
 console.log (employee)//Log
 employee.PreformanceScore = 9
 console.log("Updated Preformance Score", employee);// Updated Preformace Score
+let feedback = [
+    {customerName: "Sam,",feedbackText:"Great Customer Service", Sore: 8 },
+    {customerName: "Bob,",feedbackText:"Excelent Product", Sore:9 },
+    {customerName: "Hank,",feedbackText:"Product Did not work as intended", Sore:6 },
+    ];//Customer feedback
+    console.log (feedback);//Log
+    feedback.push({customerName: "Susan",feedbackText:"Love it!", Sore:9})
+console.log(feedback)//Updated Log
