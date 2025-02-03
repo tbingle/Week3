@@ -29,3 +29,11 @@ let feedback = [
     console.log (feedback);//Log
     feedback.push({customerName: "Susan",feedbackText:"Love it!", Sore:9})
 console.log(feedback)//Updated Log
+let inventory = {
+    itemName: "Flowers",
+    stockCount:50,
+    price:12.99,
+    calculateTotalValue: function(){return this.stockCount*this.price}
+};//Inventory
+let calculateTotalValue = inventory.calculateTotalValue();
+console.log("Total value of inventory for Flowers",inventory.calculateTotalValue);
